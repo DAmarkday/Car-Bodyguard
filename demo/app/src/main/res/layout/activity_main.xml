@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@mipmap/bg"
+
+    >
+
+    <include
+        layout="@layout/title_layout" />
+
+    <LinearLayout
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/car_status"
+            android:gravity="center"
+            android:textSize="@dimen/text_size"
+            android:textStyle="bold"
+            android:layout_width="@dimen/c_width"
+            android:layout_height="@dimen/c_height" />
+
+        <LinearLayout
+            android:layout_width="@dimen/c_width"
+            android:layout_height="@dimen/c_height"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_weight="1"
+                android:text="@string/barking"
+                android:background="@drawable/button_selector"
+                android:textSize="@dimen/text_size"
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+
+            <Button
+                android:layout_weight="1"
+                android:text="@string/unbarking"
+                android:textSize="@dimen/text_size"
+                android:layout_width="0dp"
+                android:background="@drawable/button_selector"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/gps"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="@dimen/text_size"
+            android:layout_width="@dimen/c_width"
+            android:layout_height="@dimen/c_height" />
+
+        <Button
+            android:id="@+id/request_gps"
+            android:text="@string/req_gps"
+            android:background="@drawable/button_selector"
+            android:gravity="center"
+            android:textSize="@dimen/text_size"
+            android:layout_width="@dimen/c_width"
+            android:layout_height="@dimen/c_height" />
+
+    </LinearLayout>
+</RelativeLayout>

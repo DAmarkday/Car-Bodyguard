@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ff00ff">
+    <!--<ProgressBar-->
+        <!--android:id="@+id/progressbar"-->
+        <!--style="@android:style/Widget.ProgressBar.Horizontal"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="3dip"-->
+        <!--android:max="100"-->
+        <!--android:progress="0"-->
+        <!--android:visibility="gone"/>-->
+
+    <WebView
+        android:id="@+id/webview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </WebView>
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="返回页面"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="490dp"
+        android:textSize="7pt"
+        android:background="@drawable/button_selector"
+        android:textColor="#060606"/>
+
+
+
+</FrameLayout>

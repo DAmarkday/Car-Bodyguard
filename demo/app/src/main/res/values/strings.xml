@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Car</string>
+    <string name="title_activity_setting">SettingActivity</string>
+
+    <string name="barking">请求连接</string>
+    <string name="unbarking">制动</string>
+    <string name="req_gps">请求定位</string>
+
+
+    <string name="localip">本地IP</string>
+    <string name="serverip">服务器IP</string>
+    <string name="save">保存</string>
+
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageButton
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/title_left"
+    android:src="@android:drawable/ic_menu_set_as"
+    android:background="#43d9d4d4"
+    android:layout_width="@dimen/set_icon_width"
+    android:layout_height="@dimen/set_icon_height">
+
+</ImageButton>
