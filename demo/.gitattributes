@@ -1,2 +1,3 @@
-*.java linguist-language=android
-*.xml linguist-language=android
+*.java linguist-language=java
+*.xml linguist-language=java
+*.png linguist-language=java
