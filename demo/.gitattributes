@@ -3,3 +3,6 @@
 *.html linguist-language=java
 *.png linguist-language=java
 *.flat linguist-language=java
+*.gradle linguist-language=java
+*.iml linguist-language=java
+*.bat linguist-language=java
