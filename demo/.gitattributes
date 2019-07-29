@@ -1,1 +1,5 @@
-*.* linguist-language=java
+*.java linguist-language=java
+*.xml linguist-language=java
+*.html linguist-language=java
+*.png linguist-language=java
+*.flat linguist-language=java
